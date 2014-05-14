@@ -1,11 +1,22 @@
 # Evercookie Middleware for Connect/Express JS
 
+[![Build Status](https://travis-ci.org/truongsinh/node-evercookie.png?branch=master)](https://travis-ci.org/truongsinh/node-evercookie)
+
 [Express](http://expressjs.com) is a sinatra inspired web development framework for node.js, insanely fast, flexible, and simple.
 [Evercookie](http://samy.pl/evercookie/) is a Javascript API that produces extremely persistent cookies in a browser.
 It is written in JavaScript and additionally uses a SWF (Flash) object for the Local Shared Objects and,
 originally, PHPs for the server-side generation of cached PNGs and ETags.
 
 This middleware port original PHP script to Connect/Express JS
+
+# Node version support
+- 0.8
+- 0.10
+- 0.11
+
+# Express version support:
+- 3.x
+- 4.x
 
 # Install
 ```bash
